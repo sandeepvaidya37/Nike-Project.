@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left{
+    position: relative;
+    height: 100%;
+    width: 35%;
+    background-color: #faaa00;
+}
+.right{
+    position: relative;
+    height: 100%;
+    width: 65%;
+    background-color:#fff;
+}
+.heroimg{
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: rotate(-30deg);
+    width: 520px;
+    height: 500px;
+    z-index: 2;
+
+}
+.left .content{
+    margin-left: 5%;
+    margin-top: 25%;
+    width: 77%;
+}
+.left .content h1{
+    color:black;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.left .content h1 span{
+    font-weight: 500;
+    color: teal;
+}
+.left .content h4{
+    color: #fff;
+    font-size:18px ;
+    margin-bottom: 10px;
+}
+.left .content p{
+    color: #fff;
+    font-size: 13px;
+}
+.left .content button{
+    color: black;
+    border-radius: 4px;
+    background-color:#fff;
+    margin-top: 15px;
+    width: 80px;
+    height: 25px;
+}
+.leftbottom{
+    padding: 5px;
+    position: absolute;
+    top: 87%;
+    left: 5%;
+    width: 90%;
+    background-color: #fff;
+}
+.leftbottom h3{
+    color: teal;
+}
+.rcontent{
+    width: 69%;
+    margin-left: 30%;
+    margin-top: 14%;
+}
+.rcontent h1{
+    color:#faaa00;
+    font-size: 30px;
+}
+.rcontent h1 span{
+    color: teal;
+    font-weight: 500;
+}
+.rcontent h4{
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+.rcontent input{
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+.rcontent button{
+    background-color: #faaa00;
+    height: 30px;
+    width: 80px;
+    border-radius:5px ;
+}
+.scrol{
+    margin-left: 30%;
+    margin-top: 30px;
+    width: 40%;
+    height: 200px;
+}
+.scrol .product{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    background-color: #faaa00;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 80px;
+}
+.scrol .product::-webkit-scrollbar{
+    display: none;
+}
+.scrol .avlcolors{
+    margin-top: 5px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    background-color: #faaa00;
+    display: grid;
+    grid-auto-flow: column;
+    overflow: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 80px;
+}
+.scrol .avlcolors::-webkit-scrollbar{
+    display: none;
+}
+.scrol h3{
+    font-weight: 500;
+}
+.scrol .product .Brand{
+    height: 100%;
+    width:80px ;
+    background-image: url(Nike12.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #bdbdbd;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+.avlcolors .colors{
+
+    height: 100%;
+    width:80px ;
+    background-image: url(Nike18.png);
+    background-size: cover;
+    background-position: center;
+    background-color: #bdbdbd;
+    margin-left: 2px;
+    border-radius: 4px;
+}
+.leftbottom p{
+    font-size: 12px;
+}
