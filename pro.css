@@ -29,7 +29,7 @@ html, body{
     background-color:#fff;
 }
 .heroimg{
-    transition: cubic-bezier(0.19, 1, 0.22, 1) 2s;
+    pointer-events: none;
     position: absolute;
     top: 5%;
     left: 10%;
